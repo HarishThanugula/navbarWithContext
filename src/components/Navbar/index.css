@@ -1,0 +1,40 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.dark-nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333333;
+}
+.nav-middle-container {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+.nav-item {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  list-style-type: none;
+}
+.dark-nav-item {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  list-style-type: none;
+}
+.website-logo {
+  width: 75px;
+  height: 75px;
+}
+.change-theme {
+  width: 50px;
+  height: 50px;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+}
